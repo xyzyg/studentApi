@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "Welcome to student records API!"
+	return "Welcome to student records API! created by Yukti"
 
 #the id in object is not a string and in students everything should be in string so we use bson in json_util 
 @app.route('/students/', methods=['GET', 'POST'])
